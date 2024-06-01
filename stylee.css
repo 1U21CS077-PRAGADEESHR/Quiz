@@ -50,6 +50,14 @@ background: linear-gradient(90deg, rgba(206,201,38,0.9445028011204482) 0%, rgba(
     font-size: 5vh;
 
   }
+  @media screen and (max-width:800px){
+    .result h2{
+        font-size: 32px;
+    }
+    .result p{
+        font-size: 16px;
+    }
+  }
   /*Answer*/
   
   

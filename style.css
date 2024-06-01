@@ -89,12 +89,12 @@
     transition: 0.5s;
   }
   .content input{
-    font-size: 20px;
+    font-size: 30px;
     color:darkgray;
     border: none;
     background-color: transparent;
-    height: 20px;
-    padding: 15px 22px;
+    height: 4%;
+    padding: 2% 3%;
     border-bottom: 2px solid white;
     margin: 15px;
   }
@@ -126,6 +126,20 @@
     display: none;
     font-size: 24px;
 }
+@media screen and (max-width:800px){
+  .content h3{
+    font-size:12px;
+  }
+  .nameerror,.mailerror{
+    font-size: 8px;
+  }
+  .content input{
+    
+      font-size: 8px;
+    }
+  }
+
+
 /*instruction*/
 .instruction{
   text-align: center;
