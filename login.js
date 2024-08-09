@@ -28,6 +28,6 @@
     if (name !== "" && emailPattern.test(email)) {
         localStorage.setItem("userName", name);
         localStorage.setItem("userEmail", email);
-        window.location.href = "quiz.html"; // Redirect to the quiz page
+        window.location.href = "instruction.html"; // Redirect to the quiz page
     }
 });
